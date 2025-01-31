@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: DeepseekPlayground
+  ai:
+    chat:
+      client:
+        enabled: 'false'
+    ollama:
+      chat:
+        model: deepseek-r1:7b
+    openai:
+      chat:
+        options:
+          model: deepseek-reasoner
+      api-key: ${DEEPSEEK_API_KEY}
+      base-url: https://api.deepseek.com
+
+
