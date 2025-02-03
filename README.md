@@ -1,5 +1,7 @@
 # DeepSeek Playground
 
+![logo.png](docs/logo.png)
+
 This is an experiment project to integrate DeepSeek and Ollama with Spring Boot.
 
 ## Project Requirements
